@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include material_transfer_request_version13 *.css
+recursive-include material_transfer_request_version13 *.csv
+recursive-include material_transfer_request_version13 *.html
+recursive-include material_transfer_request_version13 *.ico
+recursive-include material_transfer_request_version13 *.js
+recursive-include material_transfer_request_version13 *.json
+recursive-include material_transfer_request_version13 *.md
+recursive-include material_transfer_request_version13 *.png
+recursive-include material_transfer_request_version13 *.py
+recursive-include material_transfer_request_version13 *.svg
+recursive-include material_transfer_request_version13 *.txt
+recursive-exclude material_transfer_request_version13 *.pyc
